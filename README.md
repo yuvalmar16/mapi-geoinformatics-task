@@ -6,8 +6,7 @@
 | `raster_analysis.ipynb` | Q1–3 notebook: reads every raster in `רסטרים לניתוח/`, extracts its metadata, shows previews, classifies the file type, builds the summary table, histograms and defect detection |
 | `raster_analysis_table.csv` | Q1 table (written by the notebook) |
 | `raster_defects.csv` | Q3 valid/invalid classification with defect type (written by the notebook) |
-| `email_extraction.ipynb` | Q4 notebook: tools, extraction rules, extracted data, HTML display |
-| `email_tasks/extract_emails.py` | Q4 code: reads the .msg/.eml files, extracts the fields, writes the HTML page |
+| `email_extraction.ipynb` | Q4 notebook, all the code in one place: tools, extraction rules, the code (reading the .msg/.eml files, extracting the fields, building the HTML page), extracted data, HTML display |
 | `email_tasks/emails.html` | Q4 output: the extracted e-mail data as HTML (self-contained, opens in any browser) |
 
 **The input data is not included in this repository**: the rasters (`רסטרים לניתוח/`, 7 files, 2 GB) and the e-mails (`מיילים/`, 5 .msg files). To re-run, place those two folders, with these exact names, in the repository root.
@@ -38,7 +37,7 @@ pip install rasterio numpy pandas matplotlib scipy extract-msg beautifulsoup4 pi
 First copy the input folders `רסטרים לניתוח/` and `מיילים/` into the repository root (they are not in the repository).
 
 * **Q1–3:** open `raster_analysis.ipynb` (next to the folder `רסטרים לניתוח`) and run all cells. It writes `raster_analysis_table.csv` and `raster_defects.csv`.
-* **Q4:** run `email_extraction.ipynb`, or from the command line `python email_tasks/extract_emails.py`. Either one writes `email_tasks/emails.html`.
+* **Q4:** open `email_extraction.ipynb` and run all cells. It writes `email_tasks/emails.html`.
 
 Both notebooks were re-run end to end with the input data, with no errors (the saved outputs are from that run):
 `jupyter nbconvert --to notebook --execute --inplace raster_analysis.ipynb email_extraction.ipynb`
@@ -95,4 +94,4 @@ Rules: missing data (NoData ≥ 1 %, an empty band, or a black block ≥ 0.2 %);
 
 **The page:** a summary table of all the e-mails, a card per e-mail (requested information, extracted fields, attached file, e-mail details), and at the bottom the 5 original messages as they are in the files.
 
-**Findings in the mail folder:** 5 files → 5 different e-mails (each file name matches its subject). All mails were forwarded with the original headers stripped, so requesters come from the sign-offs (תמר, גיא). In the RTA and Tira mails the signature is only an image; no OCR engine was used, so the names (אפי ג'יאן, לימור דור) were read from the banners, stored in `SIGNATURE_IMAGES` by the image's SHA-1, and are marked on the page as read from the signature image. The Tira mail reports material received from the municipality and gives its network path.
+**Findings in the mail folder:** 5 files → 5 different e-mails (each file name matches its subject). All mails were forwarded with the original headers stripped, so requesters come from the sign-offs (תמר, גיא). In the RTA and Tira mails the signature is only an image; no OCR engine was used, so the names (אפי ג'יאן, לימור דור) were read from the banners, stored in `SIGNATURE_IMAGES` (notebook section 3.1) by the image's SHA-1, and are marked on the page as read from the signature image. The Tira mail reports material received from the municipality and gives its network path.
