@@ -1,0 +1,8 @@
+﻿File name,File type,Bands,Resolution (m),Pixel type,Pixel depth,Coordinate system
+G_L_030_F_0137.jp2,Aerial photo (raw frame),3,0.002 x 0.002,Unsigned integer (uint8),8 bit,EPSG:4326 – WGS 84
+G_L_034_F_0067.jp2,Aerial photo (raw frame),3,0.002 x 0.002,Unsigned integer (uint8),8 bit,EPSG:4326 – WGS 84
+HDR_2580.tif,Orthophoto,3,0.4,Unsigned integer (uint16),16 bit,EPSG:2039 – Israel 1993 / Israeli TM Grid
+HEF_2000.tif,Elevation (DSM/DTM),1,0.4,Floating point (float32),32 bit,EPSG:2039 – Israel 1993 / Israeli TM Grid
+KSB_1626.jp2,Orthophoto,4,0.2,Unsigned integer (uint8),8 bit,EPSG:2039 – Israel 1993 / Israeli TM Grid
+SHF_0117.tif,Elevation (DSM/DTM),1,0.15,Floating point (float32),32 bit,EPSG:2039 – Israel 1993 / Israeli TM Grid
+TLY_1226.jp2,Orthophoto,4,0.169 x 0.199,Unsigned integer (uint8),8 bit,LOCAL_CS (undefined in file); coordinates are geographic lon/lat degrees ≈ WGS84

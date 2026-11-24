@@ -1,0 +1,8 @@
+﻿File,Status,Defect type
+G_L_030_F_0137.jp2,Invalid,Clouds / cloud shadow
+G_L_034_F_0067.jp2,Invalid,Clouds / cloud shadow
+HDR_2580.tif,Invalid,"Missing data (empty band [1], black NoData block); Dark areas (shadows clipped to 0)"
+HEF_2000.tif,Valid,
+KSB_1626.jp2,Valid,
+SHF_0117.tif,Invalid,Missing data (NoData area)
+TLY_1226.jp2,Valid,
