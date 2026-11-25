@@ -1,8 +1,29 @@
 ﻿File,Status,Defect type
+A_L_013_F_0006.jp2,Invalid,Missing data (white NoData fill 13 %)
+A_L_013_F_0010.jp2,Invalid,Missing data (white NoData fill 7 %)
+AFQ_2617.tif,Invalid,Missing data (white NoData fill 9 %)
+ARD_2147.jp2,Valid,
+ARL_1827.jp2,Valid,
+BSM_1111.tif,Valid,
+BSM_2222.tif,Valid,
+ELT_1110.jp2,Invalid,Missing data (white NoData fill 66 %)
 G_L_030_F_0137.jp2,Invalid,Clouds / cloud shadow
+G_L_030_F_0139.jp2,Invalid,Clouds / cloud shadow
 G_L_034_F_0067.jp2,Invalid,Clouds / cloud shadow
+G_L_034_F_0070.jp2,Valid,
+HDR_1234.tif,Valid,
 HDR_2580.tif,Invalid,"Missing data (empty band [1], black NoData block); Dark areas (shadows clipped to 0)"
+HEF_1000.tif,Valid,
 HEF_2000.tif,Valid,
 KSB_1626.jp2,Valid,
+Nadir_L_018_F_0044.jpg,Valid,
+Nadir_L_138_F_0102.jpg,Valid,
+NTN_0912.tif,Invalid,Missing data (NoData area)
+NZR_0408.jp2,Invalid,Missing data (white NoData fill 65 %)
+QGT_0408.tif,Valid,
+QLY_2437.jp2,Invalid,Missing data (white NoData fill 18 %)
+RSH_0932.jp2,Invalid,Missing data (white NoData fill 41 %)
 SHF_0117.tif,Invalid,Missing data (NoData area)
+TLY_1008.jp2,Invalid,Missing data (white NoData fill 17 %)
 TLY_1226.jp2,Valid,
+YRS_2137.jp2,Valid,
